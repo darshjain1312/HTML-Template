@@ -1,0 +1,167 @@
+
+@charset "utf-8";
+/* CSS Document */
+#header {
+  background-color: #FFF;
+  position:relative;
+  
+}
+#logo
+{
+	margin-left:20px;
+	width:50px;
+	height:50px;
+	padding-top:30px;
+	margin:10px;
+	
+}
+#link
+{
+	float:right;
+	margin-right:300px;
+	padding-top:20px;
+	
+}
+#name
+{
+	float:right;
+	margin-right:80px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#C33;
+}
+
+#navbar {
+  
+  background-color:;
+  border:1px #333333;
+  padding:1px;
+  text-align:left;
+  
+}
+
+
+#whybyjus
+{
+	width:70% ;
+	height:230px;
+	background-color:#FFF;
+	margin:80px;
+	margin-left:360px;
+}
+#blur {
+  -webkit-filter: blur(1px);
+  filter: blur(1px); 
+} 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding:0px;
+  width: 24%;
+  background-color:#666;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 23px 20px;
+  text-decoration: none;
+  color:#FFF;
+}
+
+li a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+#recent
+{
+	padding-left:380px;
+	
+	
+}
+#btn
+{
+	width:200px;
+	height:40px;
+	background-color:#C33;
+	color:white;
+}
+#skills
+{
+	width:63%;
+	height:290px;
+	margin-left:400px;
+	
+	background-color:#FFF;
+}
+#video
+{
+	width:76%;
+	height:80px;
+	margin-left:330px;
+	background-color:#FFF;
+
+}
+#videoclip
+{
+	width:70%;
+	height:130px;
+	margin-left:370px;
+	margin-top:30px;
+	background-color:#FFF;
+}
+#videolec
+{
+	width:70%;
+	height:1000px;
+	margin-left:370px;
+	margin-top:30px;
+	background-color:#FFF;
+
+}
+#selectas
+{
+	width:70%;
+	height:320px;
+	margin-left:370px;
+	margin-top:10px;
+	background-color:#FFF;
+
+}
+#startpractice
+{
+	width:30%;
+	height:330px;
+	margin-left:870px;
+	margin-top:30px;
+	background-color:#FFF;
+
+}
+#rst
+{
+	width:30%;
+	height:330px;
+	margin-left:420px;
+	margin-top:30px;
+	background-color:#FFF;
+
+}
+#subjectvideo
+{
+	width:50%;
+	height:1200px;
+	margin-left:510px;
+	margin-top:30px;
+	background-color:#FFF;
+
+}

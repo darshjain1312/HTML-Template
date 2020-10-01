@@ -1,0 +1,225 @@
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#f1f1f1;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 9px 10px;  
+  transition: 0.4s;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+#navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 3px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+#navbar #logo {
+  font-size: 35px;
+  font-weight: bold;
+  transition: 0.4s;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+#navbar-right {
+  float: right;
+}
+
+@media screen and (max-width: 580px) {
+  #navbar {
+    padding: 7px 10px;
+  }
+  #navbar a {
+    float: none;
+    display: block;
+    text-align: left; 
+  }
+  #navbar-right {
+    float: none;
+  }
+  
+}
+.name
+  {
+	  margin:0px;
+	  padding:2px;  
+  }
+ /* Style the tab */
+
+
+.tab {
+    float: left;
+    border-right:1px solid red;
+    background-color: #f1f1f1;
+    width: 18%;
+    height: 565px;
+	position:fixed;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: white;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {  
+    background-color: darkgrey;
+}
+
+/* Style the tab content */
+.tabcontent {
+    float: left;
+    padding: 2px 12px;
+    border: 1px solid black;
+    width: 82%;
+    border: none;
+    height:auto;
+    background-color: #f1f1f1;
+    color: black;
+    padding-left: 40px;
+	margin-left:18%;
+}
+
+	.grid
+	{
+		display: grid;
+		grid-gap: 2rem;
+		grid-template-columns: repeat(6, 1fr) ;
+		text-align: center;
+		height: auto;
+	}
+	.grid a{
+	  text-decoration: none;
+	  color: black;
+	  align-items: center;
+	}
+
+	.scrollmenu{
+	  overflow: auto;
+	  white-space: nowrap;
+	  width:100%;
+	}
+
+	video{
+	  width: 10rem;
+	}
+
+	video:hover{ 
+	  width: 15rem;
+	}
+.bookmarks
+{
+	color: #333333;
+	height: auto;
+	display: flex;
+	font-size: 24px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+	font-family: RobotoMedium;
+	font-weight: 500;
+	margin-left: -30px;
+	margin-right: 0px;
+	flex-direction: column;
+	background-color: #f9f9f9;
+	padding:20px;
+}
+.bookmarkshead
+{
+	color: #333333;
+	font-size: 24px;
+	font-family: RobotoMedium;
+	font-weight: bold;
+	letter-spacing: 1.2px;
+}
+.savedmain
+{
+	height:380px;
+	margin-top:2%;
+	background-color:#f1f1f1;
+	margin-left:-21px;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.saved
+{
+	height: 68px;
+	display: flex;
+	padding: 24px;
+	align-items: center;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.savedh4
+{
+	color: #333333;
+    height: 20px;
+    display: flex;
+    font-size: 24px;
+    align-items: center;
+    font-family: RobotoMedium;
+    font-weight: 500;
+}
+.subjectname
+{
+	font-weight:bold;
+	font-size:25px;
+	padding-left:20px;
+}
+.downloads
+{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.downloads li {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+}
+.downloads li a{
+	color:black;
+	text-decoration:none;
+}
+.downloads li:hover{
+	background-color:green;
+}
+
+.downloads li a:hover{
+	color:red;
+}
